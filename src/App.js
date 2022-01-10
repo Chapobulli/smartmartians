@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);2
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit app.ebisusbay.com to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit agoracro.com to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
